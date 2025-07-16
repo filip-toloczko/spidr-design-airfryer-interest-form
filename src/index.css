@@ -1,0 +1,65 @@
+:root {
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: #fff;
+
+  background-color: #333;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+
+
+button {
+  display: inline-block;
+  border-radius: 0px;
+  border: 1px solid white;
+  padding: 6px 20px;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: "Raleway", sans-serif;
+  cursor: pointer;
+  background: transparent;
+}
+
+button:hover {
+  border-color: rgba(71, 157, 175, .9);
+  color: rgba(71, 157, 175, .9);
+  background-color: rgba(0, 0, 0, .3);
+}
+
+@media screen and (min-width: 768px) {
+    .float-center {
+        position: relative;
+        top: 70%;
+        width: 100%;
+        margin: 0;
+        -webkit-transform: translate3d(-50%, -50%, 0);
+        -moz-transform: translate3d(-50%,-50%,0);
+        -ms-transform: translate3d(-50%,-50%,0);
+        -o-transform: translate3d(-50%,-50%,0);
+        transform: translate3d(-50%, -50%, 0);
+        padding: 20px;
+        background-color: rgba(71, 157, 175, .9);
+        z-index: 2;
+    }
+}
+
+.float-center {
+    position: relative;
+    top: 0px;
+    right: 0;
+    width: 100%;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0,0,0);
+    -ms-transform: translate3d(0,0,0);
+    -o-transform: translate3d(0,0,0);
+    transform: translate3d(0, 0, 0);
+    padding: 30px;
+    margin: 0 5%;
+    background-color: rgba(71, 157, 175, .9);
+    z-index: 2;
+}
